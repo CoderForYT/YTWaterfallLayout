@@ -12,6 +12,9 @@
 		A9A32CF41EC4203B00785DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A32CF21EC4203B00785DFE /* Main.storyboard */; };
 		A9A32CF61EC4203B00785DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A32CF51EC4203B00785DFE /* Assets.xcassets */; };
 		A9A32CF91EC4203B00785DFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A32CF71EC4203B00785DFE /* LaunchScreen.storyboard */; };
+		A9A32D011EC4208300785DFE /* YTLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A32D001EC4208300785DFE /* YTLog.swift */; };
+		A9A32D031EC4208A00785DFE /* UIColor-YTExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A32D021EC4208A00785DFE /* UIColor-YTExtension.swift */; };
+		A9A32D051EC4259700785DFE /* YTWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A32D041EC4259700785DFE /* YTWaterfallLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A9A32CF51EC4203B00785DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A32CF81EC4203B00785DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9A32CFA1EC4203B00785DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A32D001EC4208300785DFE /* YTLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTLog.swift; sourceTree = "<group>"; };
+		A9A32D021EC4208A00785DFE /* UIColor-YTExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-YTExtension.swift"; sourceTree = "<group>"; };
+		A9A32D041EC4259700785DFE /* YTWaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTWaterfallLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		A9A32CED1EC4203B00785DFE /* 瀑布流 */ = {
 			isa = PBXGroup;
 			children = (
+				A9A32D001EC4208300785DFE /* YTLog.swift */,
+				A9A32D021EC4208A00785DFE /* UIColor-YTExtension.swift */,
 				A9A32CEE1EC4203B00785DFE /* AppDelegate.swift */,
 				A9A32CF01EC4203B00785DFE /* ViewController.swift */,
 				A9A32CF21EC4203B00785DFE /* Main.storyboard */,
 				A9A32CF51EC4203B00785DFE /* Assets.xcassets */,
 				A9A32CF71EC4203B00785DFE /* LaunchScreen.storyboard */,
 				A9A32CFA1EC4203B00785DFE /* Info.plist */,
+				A9A32D041EC4259700785DFE /* YTWaterfallLayout.swift */,
 			);
 			path = "瀑布流";
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9A32CF11EC4203B00785DFE /* ViewController.swift in Sources */,
+				A9A32D031EC4208A00785DFE /* UIColor-YTExtension.swift in Sources */,
+				A9A32D011EC4208300785DFE /* YTLog.swift in Sources */,
 				A9A32CEF1EC4203B00785DFE /* AppDelegate.swift in Sources */,
+				A9A32D051EC4259700785DFE /* YTWaterfallLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +313,7 @@
 				A9A32CFF1EC4203B00785DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
